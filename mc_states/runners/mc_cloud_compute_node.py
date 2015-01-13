@@ -302,7 +302,7 @@ def register_configurations(only=None, only_vms=None,
                     'output': (
                         'unknown error on '
                         'configuring vms {0}\n{1}'
-                    ).format(compute_node),
+                    ).format(compute_node, exc),
                     'comment': (
                         'unknown error on configuring vms'
                         '{0}\n'
